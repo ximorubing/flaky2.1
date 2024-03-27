@@ -1,0 +1,36 @@
+# .NET Desktop
+# Build and run tests for .NET Desktop or Windows classic desktop solutions.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
+
+trigger:
+- main
+
+pool:
+  name: test
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **/$(buildConfiguration)\net8.0\flakytest.dll 
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    codeCoverageEnabled: true
+    rerunFailedTests: true
+    rerunType: 'basedOnTestFailureCount'
+    rerunFailedTestCasesMaxLimit: '20'
+    rerunMaxAttempts: '10'

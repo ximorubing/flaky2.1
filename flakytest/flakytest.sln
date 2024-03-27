@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flakytest", "flakytest.csproj", "{084B3D17-FC4E-4518-BEF2-1BDB9BC6E0AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{084B3D17-FC4E-4518-BEF2-1BDB9BC6E0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084B3D17-FC4E-4518-BEF2-1BDB9BC6E0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084B3D17-FC4E-4518-BEF2-1BDB9BC6E0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084B3D17-FC4E-4518-BEF2-1BDB9BC6E0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCF52DF8-8B46-4640-8D17-744CF25408E9}
+	EndGlobalSection
+EndGlobal
