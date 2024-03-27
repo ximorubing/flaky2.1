@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repo\\flaky2.1\\flakytest\\flakytest.csproj": {}
+    "C:\\repo\\m237\\f2.1\\flakytest\\flakytest.csproj": {}
   },
   "projects": {
-    "C:\\repo\\flaky2.1\\flakytest\\flakytest.csproj": {
+    "C:\\repo\\m237\\f2.1\\flakytest\\flakytest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\flaky2.1\\flakytest\\flakytest.csproj",
+        "projectUniqueName": "C:\\repo\\m237\\f2.1\\flakytest\\flakytest.csproj",
         "projectName": "flakytest",
-        "projectPath": "C:\\repo\\flaky2.1\\flakytest\\flakytest.csproj",
+        "projectPath": "C:\\repo\\m237\\f2.1\\flakytest\\flakytest.csproj",
         "packagesPath": "C:\\Users\\v-xittao\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\flaky2.1\\flakytest\\obj\\",
+        "outputPath": "C:\\repo\\m237\\f2.1\\flakytest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\v-xittao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("flakytest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d59192602fda7c9a734c88151f95caab0b42c74d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae786bd3e5607a0b84ea41b822068ba4d900f9c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("flakytest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("flakytest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
